@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;}
+
+html, body {
+        height: 100%;
+        background-color: #fff;
+        box-sizing: border-box;}
+
+header { width:100%; height: 200px; text-align: center}
+
+#menu{ padding: 0px;
+    margin: 0px 0 10px 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid black;}
+
+#menu li { font-size: 30px;
+        display: inline-block;
+        padding-right: 30px;}
+
+#menu li a{color: gray;
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-shadow: 0px 0px 4px #fff;
+        letter-spacing: 2px;
+        transition: all 0.2s ease-in-out;
+        }
+
+#menu:hover li a{ text-shadow: 0px 0px 6px #fff;}
+
+#menu li a:hover{color: #000000;
+            text-shadow: 0px 0px 1px #142b49;
+            padding-left: 10px;}
+
+#akap1 { text-align: justify;
+                text-indent: 2%;
+                background-color:#f0f0f0;
+                overflow: hidden;
+                width:70%; 
+                padding: 2px 2px 2px 2px;
+                float: left;
+                min-height: 200px;
+                box-sizing: border-box;
+                border: 2px solid #666666;}
+#akap1 p { padding: 3px;
+                     margin-top: 5px;}
+
+#prawy { width: 29%; 
+        height: 200px;
+        float: right;
+        background-color: #e0e0e0;
+        padding: 2px 2px 2px 2px;
+        box-sizing: border-box;
+        border: 2px solid #666666;;
+        }
+
+#prawy ul  { padding-left: 20px;}
+
+
+#akap2 { text-align: justify;
+    text-indent: 2%;
+    background-color:#f0f0f0;
+    overflow: hidden;
+    width:70%; 
+    padding: 2px 2px 2px 2px;
+    float: right;
+    box-sizing: border-box;
+    border: 2px solid #666666;
+    margin-top: 16px;
+    min-height: 200px;}
+#akap2 p { padding: 3px;
+         margin-top: 5px;}
+
+#lewy { width: 29%; 
+height: 200px;
+float: left;
+background-color: #e0e0e0;
+padding: 2px 2px 2px 2px;
+margin-top: 16px;
+box-sizing: border-box;
+    border: 2px solid #666666;
+}
+
+#lewy ul  { padding-left: 20px;}
+
+#akap3 { text-align: justify;
+    text-indent: 2%;
+    background-color:#f0f0f0;
+    overflow: hidden;
+    width:70%; 
+    padding: 2px 2px 2px 2px;
+    float: left;
+    min-height: 200px;
+    box-sizing: border-box;
+    border: 2px solid #666666;
+    margin-top: 16px;}
+#akap3 p { padding: 3px;
+         margin-top: 5px;}
+
+#prawy2 { width: 29%; 
+height: 200px;
+float: right;
+background-color: #e0e0e0;
+padding: 2px 2px 2px 2px;
+margin-top: 16px;
+margin-bottom: 16px;
+box-sizing: border-box;
+border: 2px solid #666666;
+}
+
+#prawy2 ul  { padding-left: 20px;}
+
+#all{
+    min-height: 700px;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(255, 253, 155);
+    padding-top: 20px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+  }
+
+  footer {
+    bottom: 0;
+    clear:both; 
+    height:120px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 2px solid black}
+
+footer #kon {position: absolute;}
+
+footer h3 { float: right;}
+
+@media all and (max-width: 1510px)
+{
+    #prawy { float: left; width: 100%; margin-top: 16px;padding: 0;}
+    #akap1{ width: 100%; padding: 0;}
+    #lewy { float: right; width: 100%;padding: 0;}
+    #akap2{ width: 100%;padding: 0;}
+    #prawy2 { float: left; width: 100%;padding: 0;}
+    #akap3{ width: 100%;padding: 0;}
+    #all{
+        min-height: 700px;
+        height: 1300px !important;
+        height: 100%;
+        width: 100%;
+        background-color:rgb(255, 253, 155);
+        padding-top: 20px;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+      }
+}
+@media all and (max-width: 900px)
+{
+    #prawy { float: left; width: 100%; margin-top: 16px;padding: 0;}
+    #akap1{ width: 100%; margin-top: 60px;padding: 0;}
+    #lewy { float: right; width: 100%;padding: 0;}
+    #akap2{ width: 100%;padding: 0;}
+    #prawy2 { float: left; width: 100%;padding: 0;}
+    #akap3{ width: 100%;padding: 0;}
+    nav ul li { width: 100%;padding: 0; }
+    #all{
+        min-height: 700px;
+        height: 1320px !important;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        background-color:rgb(255, 253, 155);
+        padding-top: 20px;
+        border-left: 2px solid black;
+        border-right: 2px solid black;}
+        
+}
+@media all and (max-width: 899px) and (min-width: 450px)
+{
+    #all{
+        min-height: 700px;
+        height: 1360px !important;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        background-color:rgb(255, 253, 155);
+        padding-top: 20px;
+        border-left: 2px solid black;
+        border-right: 2px solid black;}
+}
